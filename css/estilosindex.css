@@ -1,0 +1,63 @@
+body{
+	/*background-image:url("FOTOS/fondo.gif");*/
+	background:grey;
+}
+
+.container
+{
+	border-radius:5px;
+	background:white;
+	width:95%;
+	margin:auto;
+}
+.header img
+{width:80px;}
+.slider img
+{width:100%}
+.row
+{
+	
+}
+
+.col
+{
+	display:inline-block;
+	width:30%;
+	text-align:center;
+}
+
+.col h2
+{
+	
+}
+
+…
+
+.top
+{
+	
+}
+
+
+
+.menu
+{
+	float:right;
+}
+
+.menu li
+{
+	display:inline-block;
+	margin-right:15px;
+}
+
+.menu a:hover
+{
+	color: blue;
+}
+
+
+.footer
+{
+	overflow:hidden;
+}
