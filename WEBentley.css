@@ -1,0 +1,136 @@
+body{
+	/*background-image:url("FOTOS/fondo.gif");*/
+	background:#1b6b0b ;
+}
+.bg-lineas-diagonales{
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0) 20px,
+      rgba(0, 0, 0, 0) 40px,
+      #DF6C4F 40px,
+      #DF6C4F 60px
+    );
+}
+.container
+{
+	border-radius:5px;
+	background:white;
+	width:95%;
+	margin:auto;
+}
+.header img
+{width:100px;}
+.slider img
+{
+width:70%;
+display:block;
+text-align:center;
+margin: auto;
+}
+.row
+{
+	
+}
+
+.col
+{
+	box-shadow: 5px 5px 2px;    /* Sombra con ligero desenfoque */
+	width:27%;
+	text-align:center;
+	font: oblique bold 80% cursive;
+    border: 2px solid #1b6b0b;
+    padding: .5em ;
+	margin:auto;
+	display:block;
+	
+}
+
+.col h2
+{
+
+}
+
+…
+
+.top
+{
+	
+}
+.imgRedonda
+{
+	  width:200px;
+    height:200px;
+    border-radius:100px;
+}
+
+.menu
+{
+	float:center;
+	display:block;		text-align:center;font: oblique bold 80% ;font-size:20px;
+}
+.Pichorreta
+{
+	float:center;
+	display:block;		text-align:center;font: oblique bold 80% ;font-size:50px;text-shadow: 20px 15px 7px #1b6b0b;color:#1b6b0b;
+}
+.menu li
+{
+	display:inline-block;
+	margin-right:5px;
+}
+
+.menu a:hover
+{
+	color: purple;
+}
+
+.flecha {
+  float: left;
+  position: relative;
+  height: 80px;
+  width: 180px;
+  border: solid 1px #ccc;
+  border-right: none;
+	background: #eee linear-gradient(white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);}
+.flecha:after {
+  position: absolute;
+  top: 16px;
+  right: -25px;
+  width: 40px;
+  height: 47px;
+  border-left: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+  background: #eee linear-gradient(45deg, white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);
+  content: 'COMPRA YA';
+background: linear-gradient(30deg, transparent 0%, #FF5252 0%,#FF5252 90%,transparent 5%);
+    position: relative;
+}
+.flecha2 {
+  float: right;
+  position: relative;
+  height: 80px;
+  width: 180px;
+  border: solid 1px #ccc;
+  border-right: none;
+	background: #eee linear-gradient(white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);}
+.flecha2:after {
+  position: absolute;
+  top: 16px;
+  right: -25px;
+  width: 40px;
+  height: 47px;
+  border-left: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+  background: #eee linear-gradient(45deg, white, #f1f1f1 37%, #e1e1e1 57%, #f6f6f6);
+  content: 'COMPRA YA';
+background: linear-gradient(30deg, transparent 0%, #FF5252 0%,#FF5252 90%,transparent 5%);
+	position: relative;}
+.footer
+{
+	overflow:hidden;
+		float:right;
+		color: white;
+	font: oblique bold 80%
+}
